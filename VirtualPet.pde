@@ -1,8 +1,30 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+size(1000,1000);
 }
-void draw(){
-  //more of your code here
+void draw()
+{
+rect(780,580,1000,30);//tail
+fill(200,200,200);//body
+ellipse(550,620,500,350);
+fill(200,200,200);//face
+beginShape();
+curveVertex(400,450);
+curveVertex(400,450);
+curveVertex(350,450);
+curveVertex(150,600);
+curveVertex(300,700);
+curveVertex(400,700);
+curveVertex(400,700);
+endShape();
+fill(60,60,60);//eyes
+ellipse(310,530,35,45);
+fill(255,255,255);
+ellipse(300,530,10,20);
+fill(60,60,60);//nose
+ellipse(155,600,30,40);
+fill(200,200,200);//ears
+ellipse(430,400,150,200);
+fill(219,184,208);
+ellipse(415,430,100,140);
 }
-
